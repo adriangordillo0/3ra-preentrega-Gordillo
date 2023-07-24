@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    min-height: 74vh;
+    background-color: #005FB7;
+}
+body {
+    font-family: $segunda-cursiva;
+}
+#arriba {
+    background-color: aqua;
+}
+.custom-nav {
+    background-color: rgb(20, 29, 150);
+}
+.menu {
+    background-color: rgb(20, 29, 150);
+    color: wheat;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu a {
+    color: wheat;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.ul {
+    background-color: aqua;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-tienda {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: circle;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: rgb(56, 123, 211);
+}
+
+@media (max-width: 768px){
+    
+}

@@ -1,0 +1,40 @@
+.formulario {
+    background-color: rgb(56, 123, 211);
+    background-image: url(../recursos/gato-comida.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-datos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-decoration: underline;
+}
+.barra-busqueda {
+    @media (min-width: 992px) {
+        .navbar-brand-wrapper {
+          display: flex;
+          align-items: center;
+          flex-grow: 1;
+          justify-content: center;
+        }
+      
+        .navbar-toggler-wrapper {
+          flex-grow: 1;
+          display: flex;
+          justify-content: center;
+        }
+      
+        form[role="search"] {
+          margin-right: 0;
+        }
+      }
+      
+      // Estilos para el centro del nav en modo responsive
+      @media (max-width: 991px) {
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+}
